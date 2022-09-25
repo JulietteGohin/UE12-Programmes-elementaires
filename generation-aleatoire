@@ -1,0 +1,4 @@
+import numpy as np
+from matplotlib import pyplot as plt
+image=np.random.randint(0,255,(10,10,3),dtype=np.uint8)
+plt.imshow(image)
